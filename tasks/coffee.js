@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('coffee', 'Compile CoffeeScript files into JavaScript', function() {
     var options = this.options({
       bare: false,
-      map: false,
+      sourceMap: false,
       separator: grunt.util.linefeed
     });
 
